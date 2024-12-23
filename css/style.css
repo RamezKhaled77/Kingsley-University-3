@@ -1881,7 +1881,7 @@ color: var(--button-bg-color);
 }
 #faq .questions a:hover svg{
   color: var(--button-bg-color);
-  animation: point 0.7s linear infinite;
+  animation: arrow-right 0.7s linear infinite;
   transition:  all var(--trans-duration) ease-in-out;
 }
 /* *SECTION - End faq */
