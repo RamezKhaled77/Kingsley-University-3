@@ -2216,7 +2216,6 @@ color: var(--button-bg-color);
 }
 .box{
   padding: 5px 10px 15px;
-  background: var(--button-text-color);
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   display: flex;
@@ -2226,6 +2225,7 @@ color: var(--button-bg-color);
   transition-delay: 0.2s;
 }
 .box.txt {
+      background: var(--button-text-color);
   display: block;
       opacity: 0;
   transform: translateY(-100px);
