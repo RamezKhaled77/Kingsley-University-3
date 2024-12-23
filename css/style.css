@@ -2301,6 +2301,7 @@ color: var(--button-bg-color);
 .contact-r-side{
   background-color: var(--blue-section);
   z-index: 5;
+    overflow: hidden;
 }
 .contact-r-side form input, .contact-r-side form textarea{
   padding: 10px 30px;
