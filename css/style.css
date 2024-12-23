@@ -1889,121 +1889,110 @@ color: var(--button-bg-color);
 /*! Start Admission */
 /* *SECTION - Start heading */
 #head{
-    top: 78px;
-    height: calc(100vh - 78px);
-    position: relative;
-    padding-bottom: 12rem;
-  }
-  @media (max-width: 991px) {
-    #head {
-        margin-top: 48px;
-        min-height: calc(100vh - 78px);
-    }
+  top: 78px;
+  height: calc(100vh - 78px);
+  position: relative;
 }
-  @media (min-width:1300px){
-    #head h3{
-    font-size: 3rem !important;
-    }
-    #head h2{
-      font-size: 2rem !important;
-    }
-  }
-  @media (max-width:1300px){
-    #head h3{
-      font-size: 2rem !important;
-      margin-bottom: 2rem;
-    }
-    #head h2{
-      font-size: 1.5rem !important;
-    }
-  }
-  @media (max-width:992px){
-    #head h3{
-      top: -50px !important;
-    }
-    #head h2{
-      top: -65px !important;
-    }
-  }
-  @media (max-width:768px){
-    #head h3{
-      font-size: 1.7rem !important;
-    }
-    #head h2{
-      font-size: 1.2rem !important;
-    }
-  }
-  @media (max-width:640px){
-    #head {
-      height: fit-content;
-      padding: 9rem 1rem 1.5rem;
-  
-    }
-    #head .links a{
-      margin-top: 25px !important;
-    }
+@media (min-width:1300px){
+  #head h3{
+  font-size: 4rem !important;
   }
   #head h2{
-    font-size: 2rem;
-    font-style: italic;
-    color: var(--button-bg-color);
-    font-weight: 600;
-    position: relative;
-    top: -95px;
-    text-shadow: 5px 7px 16px #5b5b5b33;
+    font-size: 2rem !important;
   }
-  #head h3 , #how p:nth-child(1), #apply p{
-    font-size: 4rem;
-    font-weight: 600;
-    font-style: italic;
-    position: relative;
-    color: var(--elegant-text);
-    top: -75px;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 1px;
-    line-height: 1.6;
+}
+@media (max-width:1300px){
+  #head h3{
+    font-size: 2.5rem !important;
   }
-  #head .links {
-    margin-top: -70px;
+  #head h2{
+    font-size: 1.5rem !important;
+  }
+}
+@media (max-width:992px){
+  #head h3{
+    top: -50px !important;
+  }
+  #head h2{
+    top: -65px !important;
+  }
+}
+@media (max-width:768px){
+  #head h3{
+    font-size: 1.7rem !important;
+  }
+  #head h2{
+    font-size: 1.2rem !important;
+  }
+}
+@media (max-width:640px){
+  #head {
+    height: fit-content;
+    padding: 9rem 1rem 1.5rem;
+
   }
   #head .links a{
-    margin: auto;
-    transition: all var(--trans-duration )ease-in-out;
+    margin-top: 25px !important;
   }
-  #head .links a:hover {
-    transform: translateY(-15px) ;
-  }
-  #head .links a:hover svg{
-    color: var(--button-bg-color-trans);
-  }
-  #head .links a:hover h5::before{
-    opacity: 1;
-  }
-  #head svg{
-    color: var(--button-bg-color-trans2);
-    transition: all var(--trans-duration) ease-in-out;
-  }
-  #head .links a h5{
-    color: var(--elegant-text);
-    font-size: 1.5rem;
-    font-weight: 700;
-    position: relative;
-    width: fit-content;
-    margin: auto;
-  }
-  #head a h5::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    opacity: 0;
-    background-color: var(--elegant-text);
-    transform: translateX(-15px);
-    top: 105%;
-    transition: all var(--trans-duration) ease-in-out;
-    left: 15px;
-  }
-  /* *SECTION - End heading */
+}
+#head h2{
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--button-bg-color);
+  font-weight: 600;
+  position: relative;
+  top: -95px;
+  text-shadow: 5px 7px 16px #5b5b5b33;
+}
+#head h3 , #how p:nth-child(1), #apply p{
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: italic;
+  position: relative;
+  color: var(--elegant-text);
+  top: -75px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+#head .links a{
+  margin: auto;
+  transition: all var(--trans-duration )ease-in-out;
+}
+#head .links a:hover {
+  transform: translateY(-15px) ;
+}
+#head .links a:hover svg{
+  color: var(--button-bg-color-trans);
+}
+#head .links a:hover h5::before{
+  opacity: 1;
+}
+#head svg{
+  color: var(--button-bg-color-trans2);
+  transition: all var(--trans-duration) ease-in-out;
+}
+#head .links a h5{
+  color: var(--elegant-text);
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+#head a h5::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  opacity: 0;
+  background-color: var(--elegant-text);
+  transform: translateX(-15px);
+  top: 105%;
+  transition: all var(--trans-duration) ease-in-out;
+  left: 15px;
+}
+/* *SECTION - End heading */
   /* *SECTION - Start How */
   #how .step.left {
     margin: 1.5rem auto;
@@ -2961,11 +2950,14 @@ footer .foot-card-2 ul h3 {
   }
 }
 @keyframes point{
-  from{
+  0% {
     transform: translateX(0);
-  }
-  to{
-    transform: translateX(15px);
-  }
+}
+50% {
+    transform: translateX(50px);
+}
+100% {
+    transform: translateX(0);
+}
 }
 /* SECTION - Start Animations */
