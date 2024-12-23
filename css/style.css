@@ -2367,7 +2367,7 @@ color: var(--button-bg-color);
 /*! End Contact */
 /*! Start Login */
 section#login {
-  background-image: url(../wave-5.svg);
+  background-image: url(../images/wave-5.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
