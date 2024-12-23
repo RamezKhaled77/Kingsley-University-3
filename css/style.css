@@ -2831,35 +2831,9 @@ footer .foot-card-2 ul h3 {
     opacity: 0;
   }
 }
-@keyframes bounce{
-  0%{
-    transform: translateY(-25px);
-  }
-  30%{
-    transform: translateY(5px);
-  }
-  50%{
-    transform: translateY(-25px);
-  }
-  65%{
-    transform: translateY(5px);
-  }
-  100%{
-    transform: translateY(-25px);
-  }
-}
 @keyframes fade-right {
   from {
     transform: translateX(-200px);
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes fade-left {
-  from {
-    transform: translateX(200px);
   }
   to {
     transform: translateX(0);
@@ -2949,15 +2923,12 @@ footer .foot-card-2 ul h3 {
     border-radius: 0;
   }
 }
-@keyframes point{
+@keyframes arrow-right {
   0% {
     transform: translateX(0);
 }
-50% {
-    transform: translateX(50px);
-}
 100% {
-    transform: translateX(0);
+    transform: translateX(15px);
 }
 }
 /* SECTION - Start Animations */
