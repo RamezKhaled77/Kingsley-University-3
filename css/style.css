@@ -2265,7 +2265,6 @@ color: var(--button-bg-color);
 /*! Start Contact */
 /* *SECTION - Start Contact */
 #contact{
-  height: 100vh;
   position: relative;
 }
 #contact::before{
