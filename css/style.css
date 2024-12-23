@@ -2255,6 +2255,7 @@ color: var(--button-bg-color);
 /* *SECTION - Start Contact */
 #contact{
   position: relative;
+    height: 100vh;
 }
 #contact::before{
   content: '';
@@ -2353,6 +2354,11 @@ color: var(--button-bg-color);
   opacity: 1;
   background-color: rgb(47 91 57);
 }
+@media (max-width:768px){
+    #content{
+        height: fit-content;
+    }
+}
 /*! End Contact */
 /*! Start Login */
 section#login {
@@ -2369,7 +2375,8 @@ section#login {
     padding: 1.5rem 2rem;
     width: 35%;
     h2 {
-      color: var(--footer-text-color);
+      color: var(--blue-section);
+      text-transform: uppercase;
      } 
     .input-field {
       width: 85%;
