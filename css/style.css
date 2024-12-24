@@ -2437,7 +2437,7 @@ section#login {
       color: var(--elegant-text);
       transition: all .6s;
     }
-    .log-div a:nth-child(2) {
+    .log-div button {
       background-color: var(--secondary-text-color);
       padding: .4rem;
       font-size: 1.3rem;
@@ -2450,7 +2450,7 @@ section#login {
     .log-div a:nth-child(1):hover {
       text-decoration-line: underline;
     }
-    .log-div a:nth-child(2):hover {
+    .log-div button:hover {
       background-color: var(--button-bg-color);
     }
   }
@@ -2461,7 +2461,7 @@ section#login {
     .log-div a:nth-child(1) {
       font-size: .8rem;
     }
-    .log-div a:nth-child(2) {
+    .log-div button {
       font-size: 1rem;
     }
   }
@@ -2477,7 +2477,6 @@ section#login {
   }
   #login .container .login-container {
     width: 90%;
-    /* height: 90%; */
   }
   #login .container .login-container .input-field {
     width: 85%;
