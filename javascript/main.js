@@ -334,6 +334,28 @@ if (page === "login") {
   moveToBottom(loginSecInps[1], placeholders[1])
   moveToTop(loginSecInps[0], placeholders[0])
   moveToTop(loginSecInps[1], placeholders[1])
+
+  
+    let hidePassBtn = document.getElementById("eyebtn");
+    let showPassBtn = document.getElementById("eyeSplashBtn");
+    let passInp = document.querySelector(".input-field #pass");
+
+    hidePassBtn.addEventListener("click", (e) => {
+      e.preventDefault()
+      if (passInp.type === "password") {
+        passInp.type = "text";
+        hidePassBtn.classList.add("hidden");
+        showPassBtn.classList.remove("hidden")
+      }
+    })
+    showPassBtn.addEventListener("click", (e) => {
+      e.preventDefault()
+      if (passInp.type === "text") {
+        passInp.type = "password";
+        showPassBtn.classList.add("hidden");
+        hidePassBtn.classList.remove("hidden");
+      }
+    })
 }
 
 //! Executed In Contact Page 
