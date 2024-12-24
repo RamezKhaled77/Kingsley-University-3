@@ -2388,6 +2388,15 @@ section#login {
          transform: translateY(-50%);
          transition: all .3s;
        }
+        #eyebtn,
+       #eyeSplashBtn {
+        position: absolute;
+        left: 92%;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 5;
+       }
        h5 {
         position: absolute;
         left: 10%;
